@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E3C37429003C65CC2D942F359CA65C00"
-               BuildableName = "Pods-YZChatRoom.framework"
+               BuildableName = "Pods_YZChatRoom.framework"
                BlueprintName = "Pods-YZChatRoom"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
