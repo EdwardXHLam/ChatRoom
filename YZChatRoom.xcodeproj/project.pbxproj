@@ -3,18 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516471B4DB3AACBB651FA313 /* Pods_YZChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90132E1A97C973F6D11AF69 /* Pods_YZChatRoom.framework */; };
+		BD6639942601FC3800CACB61 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6639932601FC3800CACB61 /* DateExtension.swift */; };
+		BD68E18326117690004F0ED1 /* YZMBProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E18226117690004F0ED1 /* YZMBProgressHud.swift */; };
 		BD6A201B25DF5D1A00EAD26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A201A25DF5D1A00EAD26D /* AppDelegate.swift */; };
 		BD6A201D25DF5D1A00EAD26D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A201C25DF5D1A00EAD26D /* SceneDelegate.swift */; };
-		BD6A201F25DF5D1A00EAD26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A201E25DF5D1A00EAD26D /* ViewController.swift */; };
-		BD6A202225DF5D1A00EAD26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6A202025DF5D1A00EAD26D /* Main.storyboard */; };
 		BD6A202425DF5D1C00EAD26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6A202325DF5D1C00EAD26D /* Assets.xcassets */; };
 		BD6A202725DF5D1C00EAD26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6A202525DF5D1C00EAD26D /* LaunchScreen.storyboard */; };
 		BD6A203225DF5D1D00EAD26D /* YZChatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A203125DF5D1D00EAD26D /* YZChatRoomTests.swift */; };
 		BD6A203D25DF5D1D00EAD26D /* YZChatRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A203C25DF5D1D00EAD26D /* YZChatRoomUITests.swift */; };
+		BD786E27260C625500F9A115 /* YZChatBottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD786E26260C625500F9A115 /* YZChatBottomTextView.swift */; };
+		BD786E84260C6F2D00F9A115 /* YZModelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD786E83260C6F2D00F9A115 /* YZModelInfo.swift */; };
+		BDB744552603433F000D1FDB /* YZSocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB744542603433F000D1FDB /* YZSocketIOManager.swift */; };
+		BDBAA5C7260B44110041B2B5 /* YZBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBAA5C6260B44110041B2B5 /* YZBaseView.swift */; };
+		BDBD3A352609E0310074ACF3 /* YZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD3A322609E0310074ACF3 /* YZBaseViewController.swift */; };
+		BDBD3A362609E0310074ACF3 /* YZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD3A332609E0310074ACF3 /* YZTabBarController.swift */; };
+		BDBD3A372609E0310074ACF3 /* YZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD3A342609E0310074ACF3 /* YZNavigationController.swift */; };
+		BDBD3A562609F3380074ACF3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD3A552609F3380074ACF3 /* Global.swift */; };
+		BDDD6825260ADF1E0004BEFB /* YZChatRoomHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD6824260ADF1E0004BEFB /* YZChatRoomHomeVC.swift */; };
+		BDDD6870260B01980004BEFB /* YZBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD686F260B01980004BEFB /* YZBaseTableViewCell.swift */; };
+		BDDD6879260B024D0004BEFB /* YZInputRoomInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD6878260B024D0004BEFB /* YZInputRoomInfoVC.swift */; };
+		BDDD6889260B07030004BEFB /* GeneralConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD6888260B07030004BEFB /* GeneralConstant.swift */; };
+		BDDD688E260B09A10004BEFB /* YZChatMessageRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD688D260B09A10004BEFB /* YZChatMessageRoomVC.swift */; };
+		BDDD6894260B0A290004BEFB /* YZMySpeachCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD6893260B0A290004BEFB /* YZMySpeachCell.swift */; };
+		BDE8A42F2601AB0F008A241A /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A4262601AB0F008A241A /* ArrayExtensions.swift */; };
+		BDE8A4302601AB0F008A241A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A4272601AB0F008A241A /* UIColorExtension.swift */; };
+		BDE8A4312601AB0F008A241A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A4282601AB0F008A241A /* UIViewExtension.swift */; };
+		BDE8A4322601AB0F008A241A /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A4292601AB0F008A241A /* UIBarButtonItemExtension.swift */; };
+		BDE8A4332601AB0F008A241A /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A42A2601AB0F008A241A /* UIDeviceExtension.swift */; };
+		BDE8A4342601AB0F008A241A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A42B2601AB0F008A241A /* UIImageExtensions.swift */; };
+		BDE8A4352601AB0F008A241A /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A42C2601AB0F008A241A /* DispatchQueueExtension.swift */; };
+		BDE8A4362601AB0F008A241A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A42D2601AB0F008A241A /* StringExtension.swift */; };
+		BDE8A4372601AB0F008A241A /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A42E2601AB0F008A241A /* DictionaryExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45AA95E65780D503EF4AFC3F /* Pods-YZChatRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZChatRoom.release.xcconfig"; path = "Target Support Files/Pods-YZChatRoom/Pods-YZChatRoom.release.xcconfig"; sourceTree = "<group>"; };
+		A35EB2CAEDC37996823F9E84 /* Pods-YZChatRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZChatRoom.debug.xcconfig"; path = "Target Support Files/Pods-YZChatRoom/Pods-YZChatRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		BD6639932601FC3800CACB61 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		BD68E18226117690004F0ED1 /* YZMBProgressHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZMBProgressHud.swift; sourceTree = "<group>"; };
 		BD6A201725DF5D1A00EAD26D /* YZChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6A201A25DF5D1A00EAD26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD6A201C25DF5D1A00EAD26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD6A201E25DF5D1A00EAD26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD6A202125DF5D1A00EAD26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD6A202325DF5D1C00EAD26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD6A202625DF5D1C00EAD26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6A202825DF5D1C00EAD26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +75,30 @@
 		BD6A203825DF5D1D00EAD26D /* YZChatRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZChatRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6A203C25DF5D1D00EAD26D /* YZChatRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZChatRoomUITests.swift; sourceTree = "<group>"; };
 		BD6A203E25DF5D1D00EAD26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD786E26260C625500F9A115 /* YZChatBottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZChatBottomTextView.swift; sourceTree = "<group>"; };
+		BD786E83260C6F2D00F9A115 /* YZModelInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZModelInfo.swift; sourceTree = "<group>"; };
+		BDB744542603433F000D1FDB /* YZSocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZSocketIOManager.swift; sourceTree = "<group>"; };
+		BDBAA5C6260B44110041B2B5 /* YZBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZBaseView.swift; sourceTree = "<group>"; };
+		BDBD3A322609E0310074ACF3 /* YZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZBaseViewController.swift; sourceTree = "<group>"; };
+		BDBD3A332609E0310074ACF3 /* YZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZTabBarController.swift; sourceTree = "<group>"; };
+		BDBD3A342609E0310074ACF3 /* YZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZNavigationController.swift; sourceTree = "<group>"; };
+		BDBD3A552609F3380074ACF3 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		BDDD6824260ADF1E0004BEFB /* YZChatRoomHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZChatRoomHomeVC.swift; sourceTree = "<group>"; };
+		BDDD686F260B01980004BEFB /* YZBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZBaseTableViewCell.swift; sourceTree = "<group>"; };
+		BDDD6878260B024D0004BEFB /* YZInputRoomInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZInputRoomInfoVC.swift; sourceTree = "<group>"; };
+		BDDD6888260B07030004BEFB /* GeneralConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralConstant.swift; sourceTree = "<group>"; };
+		BDDD688D260B09A10004BEFB /* YZChatMessageRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZChatMessageRoomVC.swift; sourceTree = "<group>"; };
+		BDDD6893260B0A290004BEFB /* YZMySpeachCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZMySpeachCell.swift; sourceTree = "<group>"; };
+		BDE8A4262601AB0F008A241A /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		BDE8A4272601AB0F008A241A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		BDE8A4282601AB0F008A241A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		BDE8A4292601AB0F008A241A /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		BDE8A42A2601AB0F008A241A /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		BDE8A42B2601AB0F008A241A /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		BDE8A42C2601AB0F008A241A /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		BDE8A42D2601AB0F008A241A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BDE8A42E2601AB0F008A241A /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		C90132E1A97C973F6D11AF69 /* Pods_YZChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516471B4DB3AACBB651FA313 /* Pods_YZChatRoom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +127,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8C78065B0F35C42464BC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90132E1A97C973F6D11AF69 /* Pods_YZChatRoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD68E18126117665004F0ED1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BD68E18226117690004F0ED1 /* YZMBProgressHud.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		BD6A200E25DF5D1A00EAD26D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +150,8 @@
 				BD6A203025DF5D1D00EAD26D /* YZChatRoomTests */,
 				BD6A203B25DF5D1D00EAD26D /* YZChatRoomUITests */,
 				BD6A201825DF5D1A00EAD26D /* Products */,
+				CCA277BF30693459789B16F4 /* Pods */,
+				0F8C78065B0F35C42464BC8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +168,14 @@
 		BD6A201925DF5D1A00EAD26D /* YZChatRoom */ = {
 			isa = PBXGroup;
 			children = (
+				BD68E18126117665004F0ED1 /* CustomView */,
+				BDDD6822260ADD9A0004BEFB /* Classes */,
+				BDBD3A542609F3380074ACF3 /* Module */,
+				BDBD3A312609E0310074ACF3 /* Base */,
+				BDE8A4252601AB0F008A241A /* Extension */,
 				BD6A201A25DF5D1A00EAD26D /* AppDelegate.swift */,
 				BD6A201C25DF5D1A00EAD26D /* SceneDelegate.swift */,
-				BD6A201E25DF5D1A00EAD26D /* ViewController.swift */,
-				BD6A202025DF5D1A00EAD26D /* Main.storyboard */,
+				BDB744542603433F000D1FDB /* YZSocketIOManager.swift */,
 				BD6A202325DF5D1C00EAD26D /* Assets.xcassets */,
 				BD6A202525DF5D1C00EAD26D /* LaunchScreen.storyboard */,
 				BD6A202825DF5D1C00EAD26D /* Info.plist */,
@@ -128,6 +201,130 @@
 			path = YZChatRoomUITests;
 			sourceTree = "<group>";
 		};
+		BD786E22260C615E00F9A115 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD786E26260C625500F9A115 /* YZChatBottomTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD786E82260C6F0C00F9A115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD786E83260C6F2D00F9A115 /* YZModelInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDBD3A312609E0310074ACF3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD686E260B01710004BEFB /* Views */,
+				BDDD686A260B01680004BEFB /* VCs */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BDBD3A542609F3380074ACF3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD3A552609F3380074ACF3 /* Global.swift */,
+				BDDD6888260B07030004BEFB /* GeneralConstant.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BDDD6822260ADD9A0004BEFB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD6877260B01EB0004BEFB /* ChatSelection */,
+				BDDD684A260AE88A0004BEFB /* Chat */,
+				BDDD6823260ADDA40004BEFB /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BDDD6823260ADDA40004BEFB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD6824260ADF1E0004BEFB /* YZChatRoomHomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BDDD684A260AE88A0004BEFB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BD786E82260C6F0C00F9A115 /* Model */,
+				BD786E22260C615E00F9A115 /* View */,
+				BDDD6892260B09F50004BEFB /* Cell */,
+				BDDD688D260B09A10004BEFB /* YZChatMessageRoomVC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		BDDD686A260B01680004BEFB /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD3A322609E0310074ACF3 /* YZBaseViewController.swift */,
+				BDBD3A332609E0310074ACF3 /* YZTabBarController.swift */,
+				BDBD3A342609E0310074ACF3 /* YZNavigationController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		BDDD686E260B01710004BEFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD686F260B01980004BEFB /* YZBaseTableViewCell.swift */,
+				BDBAA5C6260B44110041B2B5 /* YZBaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDDD6877260B01EB0004BEFB /* ChatSelection */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD6878260B024D0004BEFB /* YZInputRoomInfoVC.swift */,
+			);
+			path = ChatSelection;
+			sourceTree = "<group>";
+		};
+		BDDD6892260B09F50004BEFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BDDD6893260B0A290004BEFB /* YZMySpeachCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BDE8A4252601AB0F008A241A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BDE8A4262601AB0F008A241A /* ArrayExtensions.swift */,
+				BDE8A4272601AB0F008A241A /* UIColorExtension.swift */,
+				BDE8A4282601AB0F008A241A /* UIViewExtension.swift */,
+				BDE8A4292601AB0F008A241A /* UIBarButtonItemExtension.swift */,
+				BDE8A42A2601AB0F008A241A /* UIDeviceExtension.swift */,
+				BDE8A42B2601AB0F008A241A /* UIImageExtensions.swift */,
+				BDE8A42C2601AB0F008A241A /* DispatchQueueExtension.swift */,
+				BDE8A42D2601AB0F008A241A /* StringExtension.swift */,
+				BDE8A42E2601AB0F008A241A /* DictionaryExtension.swift */,
+				BD6639932601FC3800CACB61 /* DateExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CCA277BF30693459789B16F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A35EB2CAEDC37996823F9E84 /* Pods-YZChatRoom.debug.xcconfig */,
+				45AA95E65780D503EF4AFC3F /* Pods-YZChatRoom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD6A204125DF5D1D00EAD26D /* Build configuration list for PBXNativeTarget "YZChatRoom" */;
 			buildPhases = (
+				DFBA49040486860CA5FEE8DD /* [CP] Check Pods Manifest.lock */,
 				BD6A201325DF5D1A00EAD26D /* Sources */,
 				BD6A201425DF5D1A00EAD26D /* Frameworks */,
 				BD6A201525DF5D1A00EAD26D /* Resources */,
+				85DFBAA3D18A9409940F7A39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +432,6 @@
 			files = (
 				BD6A202725DF5D1C00EAD26D /* LaunchScreen.storyboard in Resources */,
 				BD6A202425DF5D1C00EAD26D /* Assets.xcassets in Resources */,
-				BD6A202225DF5D1A00EAD26D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +451,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85DFBAA3D18A9409940F7A39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZChatRoom/Pods-YZChatRoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZChatRoom/Pods-YZChatRoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YZChatRoom/Pods-YZChatRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBA49040486860CA5FEE8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZChatRoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD6A201325DF5D1A00EAD26D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD6A201F25DF5D1A00EAD26D /* ViewController.swift in Sources */,
+				BD68E18326117690004F0ED1 /* YZMBProgressHud.swift in Sources */,
+				BDB744552603433F000D1FDB /* YZSocketIOManager.swift in Sources */,
+				BD6639942601FC3800CACB61 /* DateExtension.swift in Sources */,
+				BDE8A42F2601AB0F008A241A /* ArrayExtensions.swift in Sources */,
+				BDDD6889260B07030004BEFB /* GeneralConstant.swift in Sources */,
+				BDBAA5C7260B44110041B2B5 /* YZBaseView.swift in Sources */,
+				BDE8A4352601AB0F008A241A /* DispatchQueueExtension.swift in Sources */,
+				BDE8A4372601AB0F008A241A /* DictionaryExtension.swift in Sources */,
+				BDE8A4332601AB0F008A241A /* UIDeviceExtension.swift in Sources */,
+				BDBD3A372609E0310074ACF3 /* YZNavigationController.swift in Sources */,
+				BDDD6894260B0A290004BEFB /* YZMySpeachCell.swift in Sources */,
+				BDDD6825260ADF1E0004BEFB /* YZChatRoomHomeVC.swift in Sources */,
+				BDBD3A562609F3380074ACF3 /* Global.swift in Sources */,
+				BDBD3A362609E0310074ACF3 /* YZTabBarController.swift in Sources */,
 				BD6A201B25DF5D1A00EAD26D /* AppDelegate.swift in Sources */,
+				BD786E84260C6F2D00F9A115 /* YZModelInfo.swift in Sources */,
+				BDDD6879260B024D0004BEFB /* YZInputRoomInfoVC.swift in Sources */,
+				BDE8A4322601AB0F008A241A /* UIBarButtonItemExtension.swift in Sources */,
+				BDE8A4312601AB0F008A241A /* UIViewExtension.swift in Sources */,
+				BDDD6870260B01980004BEFB /* YZBaseTableViewCell.swift in Sources */,
+				BDBD3A352609E0310074ACF3 /* YZBaseViewController.swift in Sources */,
+				BDE8A4362601AB0F008A241A /* StringExtension.swift in Sources */,
+				BDE8A4342601AB0F008A241A /* UIImageExtensions.swift in Sources */,
+				BD786E27260C625500F9A115 /* YZChatBottomTextView.swift in Sources */,
 				BD6A201D25DF5D1A00EAD26D /* SceneDelegate.swift in Sources */,
+				BDDD688E260B09A10004BEFB /* YZChatMessageRoomVC.swift in Sources */,
+				BDE8A4302601AB0F008A241A /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +560,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BD6A202025DF5D1A00EAD26D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD6A202125DF5D1A00EAD26D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD6A202525DF5D1C00EAD26D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +689,7 @@
 		};
 		BD6A204225DF5D1D00EAD26D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35EB2CAEDC37996823F9E84 /* Pods-YZChatRoom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +709,7 @@
 		};
 		BD6A204325DF5D1D00EAD26D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AA95E65780D503EF4AFC3F /* Pods-YZChatRoom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

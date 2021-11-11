@@ -6,17 +6,51 @@
 //
 
 import UIKit
+import Alamofire
+import IQKeyboardManagerSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    
+    lazy var reachability: NetworkReachabilityManager? = {
+        return NetworkReachabilityManager(host: baseConnectionLinkage)
+    }()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        //guard let _ = (scene as? UIWindowScene) else { return }
+        configBase()
+        
+        if let windowScene = scene as? UIWindowScene {
+            
+            let window = UIWindow(windowScene: windowScene)
+ 
+            window.rootViewController = YZTabBarController()
+            
+            self.window = window
+            window.makeKeyAndVisible()
+        }
+    }
+    
+    func configBase() {
+        //MARK: 键盘处理
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
+        //MARK: 网络监控
+        reachability?.listener = { status in
+            switch status {
+            case .reachable(.wwan):
+                YZMBProgressHud.showTextHudTips(message: "检测到您正在使用移动数据", isTranslucent: true)
+            case .notReachable:
+                YZMBProgressHud.showTextHudTips(message: "当前无网络", isTranslucent: true)
+            default: break
+            }
+        }
+        reachability?.startListening()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
