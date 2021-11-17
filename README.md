@@ -1,6 +1,8 @@
 # ChatRoom
 Socket.io chat room
 
+Swift:
+
 基于Socket.io的一个私聊，群聊，可结合自身项目加入处理。
 
 群聊类似如下：
