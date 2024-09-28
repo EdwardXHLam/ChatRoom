@@ -29,10 +29,31 @@ class YZBaseTableViewCell: UITableViewCell, Reusable {
 
 }
 
-
 extension YZBaseTableViewCell {
     func tryToFetchData() {
         print(self)
     }
 }
   
+extension String {
+    
+    func printString() {
+        print(self)
+    }
+    
+    func printString1() {
+        print(self)
+    }
+}
+
+//CN1-2-3
+
+//CN1-2-3 + //CN1-2-3
+
+
+
+//CN1-2-3
+
+//CN1-2-3 + //CN1-2-3
+
+
