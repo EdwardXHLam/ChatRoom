@@ -8,6 +8,10 @@
 import UIKit
 import Reusable
 
+public enum NetWorkError: Error {
+    case none
+}
+
 class YZBaseTableViewCell: UITableViewCell, Reusable {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
