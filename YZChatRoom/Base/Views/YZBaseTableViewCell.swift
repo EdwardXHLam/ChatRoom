@@ -24,3 +24,11 @@ class YZBaseTableViewCell: UITableViewCell, Reusable {
     open func configUI() {}
 
 }
+
+
+extension YZBaseTableViewCell {
+    func tryToFetchData() {
+        print(self)
+    }
+}
+  
