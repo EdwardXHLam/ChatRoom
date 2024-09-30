@@ -129,6 +129,11 @@ extension UIView {
     }
 }
 
+extension CGFloat {
+    func printValue() {
+        print("\(self)")
+    }
+}
 
 //TEST AREA +++++
 ///8888ddfffdfd
