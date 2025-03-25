@@ -7,7 +7,7 @@
 
 import UIKit
 import Reusable
-
+//commit 1
 class YZBaseTableViewCell: UITableViewCell, Reusable {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
